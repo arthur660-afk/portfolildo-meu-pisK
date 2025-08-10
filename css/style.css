@@ -1,0 +1,45 @@
+
+
+body { /*icio da pagina geral*/
+    background-color: darkslategrey;
+    color: azure;
+    align-items: center;
+}
+nav /*modifoca a posição da navbar*/ {
+    text-align: center;
+    margin: 5pxpx;
+    padding: 10px;
+}
+ul /*modfica o estilo e a a diração da navbar*/ {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+li /*tamanho e etc da navbar*/ {
+    margin: 0 24px;
+    font-size: 24px;
+}
+a /*letras e estilo do msm fim da mpodifica çoes da navbar */ {
+    text-decoration: none;
+    color: ivory;
+    font-size: 24px;
+}
+body > header /* textos na header*/ {
+    text-align: center;
+    margin: 20px;
+}
+#texto /*texto loram ipslom*/ {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+#gnome /*nome da pessoa meodifica o s cores*/ {
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
