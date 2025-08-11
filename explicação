@@ -1,0 +1,6 @@
+tentando no git 
+
+
+atualisar = git add .
+            git comit -m "atualisando"
+            git push
