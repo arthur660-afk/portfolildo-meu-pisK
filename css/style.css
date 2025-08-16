@@ -31,6 +31,12 @@ body > header /* textos na header*/ {
     text-align: center;
     margin: 20px;
 }
+header img /*imagem do header*/ {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
 #texto /*texto loram ipslom*/ {
     font-size: 20px;
     text-align: center;
