@@ -16,6 +16,8 @@ ul /*modfica o estilo e a a diração da navbar*/ {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    left: 0;
+    padding: 0;
 
 }
 li /*tamanho e etc da navbar*/ {
@@ -37,6 +39,38 @@ header img /*imagem do header*/ {
     border-radius: 50%;
     margin-top: 20px;
     border: 3px solid rgb(79, 59, 94);  
+}
+main div /*modifica o tamanho e a posição do main*/ {
+    margin: 0px;
+}
+main div nav /*modifica o tamanho e a posição do nav esquerda*/ {
+    align-items: right;
+    text-align: right;
+    height: 100vh;
+    width: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(27, 44, 44);
+    margin: 0;
+    padding: 0px;
+}
+main div nav ul /*modifica o tamanho e a posição do nav esquerda*/ {
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    left : 0;
+    font-style: italic;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+footer .desing /*modifica o texto do rodapé*/ {
+    text-align: right;
+    font-size: 19px;
+    margin: 10px;
+    color: lightgray;
 }
 #texto /*texto loram ipslom*/ {
     font-size: 20px;
