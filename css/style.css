@@ -1,7 +1,7 @@
 
 
 body { /*icio da pagina geral*/
-    background-color: darkslategrey;
+    background-color: rgb(28, 61, 80);
     color: azure;
     align-items: center;
 }
@@ -26,12 +26,20 @@ li /*tamanho e etc da navbar*/ {
 }
 a /*letras e estilo do msm fim da mpodifica çoes da navbar */ {
     text-decoration: none;
-    color: ivory;
+    color: rgb(54, 15, 6);
     font-size: 24px;
 }
-body > header /* textos na header*/ {
+header{/*header modificada em geral*/
     text-align: center;
     margin: 20px;
+
+
+}
+body > header >h1/* textos na header*/ {
+    text-align: center;
+    margin: 20px;
+    color: rgb(70, 19, 8);
+    font-size: 35px;
 }
 header img /*imagem do header*/ {
     width: 200px;
@@ -39,6 +47,13 @@ header img /*imagem do header*/ {
     border-radius: 50%;
     margin-top: 20px;
     border: 3px solid rgb(79, 59, 94);  
+}
+header nav /*modifica A NAV DA HEADER*/{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, negrito;
+    font-style: italic;
+}
+main{/*total em geral ou principal*/
+    color: rgb(85, 150, 85);
 }
 main div /*modifica o tamanho e a posição do main*/ {
     margin: 0px;
@@ -79,6 +94,7 @@ footer .desing /*modifica o texto do rodapé*/ {
     font-size: 20px;
     text-align: center;
     margin: 20px;
+    color: rgb(54, 15, 6);
 }
 #aut-name /*nome da pessoa meodifica o s cores*/ {
     color: yellow;
