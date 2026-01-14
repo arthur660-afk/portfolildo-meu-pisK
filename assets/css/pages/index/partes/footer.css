@@ -1,0 +1,9 @@
+footer{
+    color: var(--cor-font);
+}
+footer .desing /*modifica o texto do rodapé*/ {
+    text-align: right;
+    font-size: 19px;
+    margin: 10px;
+    color: lightgray;
+}

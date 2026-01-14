@@ -1,0 +1,33 @@
+@import '../../global/css-globall.css';
+@import './partes/header.css';
+@import './partes/main.css';
+@import './partes/footer.css';
+
+
+
+body { /*icio da pagina geral*/
+    background-color: #1c3d50;
+    color: var(--cor-font);
+    align-items: center;
+}
+
+.texto /*texto loram ipslom*/ {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: var(--cor-font);
+}
+#aut-name /*nome da pessoa meodifica o s cores*/ {
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#navblat /*butão de nav bar*/{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: rgb(42, 71, 71);
+    background-color: rgb(5, 5, 41);
+}
+
