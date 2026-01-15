@@ -1,9 +1,12 @@
 footer{
     color: var(--cor-font);
 }
-footer .desing /*modifica o texto do rodapé*/ {
+p.desing /*modifica o texto do rodapé*/ {
     text-align: right;
     font-size: 19px;
     margin: 10px;
     color: lightgray;
+}
+h5{
+    color: rgb(27, 27, 27);
 }
