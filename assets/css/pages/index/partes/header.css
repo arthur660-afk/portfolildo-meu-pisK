@@ -1,9 +1,12 @@
-nav /*modifoca a posição da navbar*/ {
+nav {
+    /*modifoca a posição da navbar*/
     text-align: center;
     margin: 5pxpx;
     padding: 10px;
 }
-ul /*modfica o estilo e a a diração da navbar*/ {
+
+ul {
+    /*modfica o estilo e a a diração da navbar*/
     list-style-type: none;
     text-decoration: none;
     display: flex;
@@ -12,30 +15,29 @@ ul /*modfica o estilo e a a diração da navbar*/ {
     left: 0;
     padding: 0;
 }
-li /*tamanho e etc da navbar*/ {
-    margin: 0 24px;
+li {
+    /*tamanho e etc da navbar*/
     font-size: 24px;
 }
-a /*letras e estilo do msm fim da mpodifica çoes da navbar */ {
+
+a {
+    /*letras e estilo do msm fim da mpodifica çoes da navbar */
     text-decoration: none;
     color: var(--cor-font);
     font-size: 24px;
 }
-header{/*header modificada em geral*/
+
+header {
+    /*header modificada em geral*/
     text-align: center;
     margin: 20px;
     align-items: center;
 }
-header img /*imagem do header*/ {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-top: 20px;
-    border: 3px solid rgb(79, 59, 94);
-    animation: vuar 3s ease-in-out infinite alternate;
-    position: relative;
-}
-header nav /*modifica A NAV DA HEADER*/{
+
+
+
+header nav {
+    /*modifica A NAV DA HEADER*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, negrito;
     font-style: italic;
 }

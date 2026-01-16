@@ -5,25 +5,49 @@
 
 
 
-body { /*icio da pagina geral*/
+body {
+    /*icio da pagina geral*/
     background-color: #1c3d50;
     color: var(--cor-font);
     align-items: center;
 }
 
-p.texto /*texto loram ipslom*/ {
+p.texto {
+    /*texto loram ipslom*/
     font-size: 20px;
+    align-items: center;
     text-align: center;
-    margin: 20px;
     color: var(--cor-font);
+    font-style: "Merriweather", serif;
 }
-p#aut-name /*nome da pessoa meodifica o s cores*/ {
+
+p.desing {
+    /*modifica o texto do rodapé*/
+    text-align: right;
+    font-size: 19px;
+    margin: 10px;
+    color: lightgray;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h5#idade {/*texto da idade*/
+    font-size: 15px;
+    color: #1b1b1b;
+}
+
+p#aut-name {
+    /*nome da pessoa meodifica o s cores*/
     color: yellow;
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
 }
-button#navblat /*butão de nav bar*/{
+
+button#navblat {
+    /*butão de nav bar*/
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -31,9 +55,200 @@ button#navblat /*butão de nav bar*/{
     background-color: rgb(5, 5, 41);
     cursor: pointer;
     border-color: #0f2635;
-
 }
-button#navblat:hover{
+
+button#navblat:hover {/*quando o mouse entrar no button*/
     background-color: #0f2635;
     transition: all 0.7s;
+}
+
+li#texto1 {/*div1 separada para texto*/
+    width: 600px;
+    height: 140px;
+    border-radius: 15px;
+    list-style: none;
+}
+
+li#texto2 {/*div2 separada para texto*/
+    width: 600px;
+    height: 125px;
+    border-radius: 15px;
+    list-style: none;
+}
+ 
+li#texto3 {/*div3 separada para texto*/
+    width: 450px;
+    height: 170px;
+    border-radius: 15px;
+    list-style: none;
+}
+
+li#texto1:hover {/*div1 separada para texto mouse entra nela*/
+    width: 610px;
+    height: 150px;
+    box-shadow: 0 0 20px var(--cor-sonbra);
+    transition: linear 0.7s;
+}
+
+li#texto2:hover {/*div2 separada para texto mouse entra nela*/
+    width: 610px;
+    height: 135px;
+    box-shadow: 0 0 20px  var(--cor-sonbra);
+    transition: linear 0.7s;
+}
+
+li#texto3:hover {/*div3 separada para texto mouse entra nela*/
+    width: 460px;
+    height: 180px;
+    box-shadow: 0 0 20px var(--cor-sonbra);
+    transition: linear 0.7s;
+}
+img.img {
+    /*imagem do header*/
+    width: 256px;
+    height: 256px;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 3px solid rgb(79, 59, 94);
+    animation: vuar 3s ease-in-out infinite alternate;
+    position: relative;
+}
+div.flex{/*div gerar dos textos*/
+    justify-items: center;
+}
+
+@media screen and (max-width:800px) {
+    p.texto {
+        /*texto loram ipslom*/
+        font-size: 30px;
+    }
+
+    p.desing {
+        /*modifica o texto do rodapé*/
+        font-size: 30px;
+    }
+
+    p#aut-name {
+        /*nome da pessoa meodifica o s cores*/
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    button#navblat {
+        /*butão de nav bar*/
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+    }
+
+    li#texto1 {/*div1 separada para texto*/
+        width: 700px;
+        height: 350px;
+    }
+
+    liv#texto2 {/*div2 separada para texto*/
+        width: 700px;
+        height: 250px;
+    }
+
+    li#texto3 {/*div3 separada para texto*/
+        width: 700px;
+        height: 300px;
+    }
+
+    li#texto1:active {/*div1 separada para texto mouse entra nela*/
+        width: 710px;
+        height: 360px;
+        box-shadow: 0 0 20px var(--cor-sonbra);
+        transition: linear 0.7s;
+    }
+
+    li#texto2:active {/*div2 separada para texto mouse entra nela*/
+        width: 710px;
+        height: 260px;
+        transition: linear 0.7s;
+        box-shadow: 0 0 20px var(--cor-sonbra);
+    }
+
+    li#texto3:active {/*div3 separada para texto mouse entra nela*/
+        width: 720px;
+        height: 310px;
+        transition: linear 0.7s;
+        box-shadow: 0 0 20px var(--cor-sonbra);
+    }
+
+    h5#idade {
+        font-size: 25px;
+        color: rgb(27, 27, 27);
+    }
+    img.img{/*img da header*/
+        animation: flutuar 3s ease-in-out infinite alternate;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    p.texto {
+        /*texto loram ipslom*/
+        font-size: 20px;
+    }
+
+    p.desing {
+        /*modifica o texto do rodapé*/
+        font-size: 20px;
+    }
+
+    p#aut-name {
+        /*nome da pessoa meodifica o s cores*/
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    button#navblat {
+        /*butão de nav bar*/
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+    }
+
+    li#texto1 {/*div1 separada para texto*/
+        width: 300px;
+        height: 240px;
+        text-decoration: none;
+    }
+
+    li#texto2 {/*div2 separada para texto*/
+        width: 300px;
+        height: 240px;
+    }
+
+    li#texto3 {/*div3 separada para texto*/
+        width: 300px;
+        height: 260px;
+    }
+
+    li#texto1:active {/*div1 separada para texto mouse entra nela , adaptado */
+        width: 325px;
+        height: 250px;
+        box-shadow: 0 0 20px var(--cor-sonbra);
+        transition: linear 0.7s;
+    }
+
+    li#texto2:active {/*div2 separada para texto mouse entra nela, adptado*/
+        width: 325px;
+        height: 250px;
+        box-shadow: 0 0 20px var(--cor-sonbra);
+        transition: linear 0.7s;
+    }
+
+    li#texto3:active {/*div3 separada para texto mouse entra nela, adptado*/
+        width: 325px;
+        height: 270px;
+        box-shadow: 0 0 20px var(--cor-font);
+        transition: linear 0.7s;
+    }
+
+    h5#idade {/*texto da idade*/
+        font-size: 20px;
+        color: rgb(27, 27, 27);
+    }
 }

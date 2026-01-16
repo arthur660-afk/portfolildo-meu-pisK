@@ -1,4 +1,9 @@
-main nav /*modifica o tamanho e a posição do nav esquerda*/ {
+main {
+    justify-items: center;
+}
+
+main nav {
+    /*modifica o tamanho e a posição do nav esquerda*/
     align-items: right;
     text-align: right;
     height: 100vh;
@@ -11,19 +16,21 @@ main nav /*modifica o tamanho e a posição do nav esquerda*/ {
     padding: 0px;
     opacity: 0;
 }
-main nav ul /*modifica o tamanho e a posição do nav esquerda*/ {
+
+main nav ul {
+    /*modifica o tamanho e a posição do nav esquerda*/
     flex-direction: column;
     height: 100%;
     margin: 0 0;
     padding: 0;
-    left : 0 ;
+    left: 0;
     font-style: italic;
     text-decoration: none;
     list-style-type: none;
-    
+
 }
+
 main nav ul li {
     margin: 0 0;
     text-align: center;
 }
-

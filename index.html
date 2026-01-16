@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head><!--links principais e configs inportantes-->
     <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arthur_wellington_santos</title>
-    <link rel="shortcut icon" href="./assets/img/icom/Captura de tela de 2025-08-16 09-20-23.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/fotos-favicom/minha-pessoa.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/pages/index/style.css">
 </head>
+
 <body>
     <header><!--parte de cima do site-->
-        <button id="navblat" >menu</button>
+        <button id="navblat">menu</button>
         <nav><!--navbar-->
             <ul><!--lista de links da navbar-->
                 <li>
@@ -20,30 +25,54 @@
                 </li>
             </ul>
         </nav>
-        <img src="././assets/img/icom/Captura de tela de 2025-08-16 09-20-23.png" alt=""><!-- icone/img do site -->
-        <h1>programação de arthur</h1><!--titulo do site-->
+        <img class="img" src="././assets/img/fotos-favicom/minha-pessoa.png" alt=""><!-- icone/img do site -->
+        <h1>caracteristicas proficionais</h1><!--titulo do site-->
     </header>
     <main><!--parte principal do site-->
-            <nav id="nav-lateral"><!--navbar lateral-->
-                <ul><!--lista de links da navbar-->
-                    <li><a href="./index.html">home</a></li>
-                    <li><a href="./contact.html">contato</a></li>
-                </ul>
-            </nav>
-        <div id="lado">
-            <p class="texto">Meu nome é Arthur Wellington Santos e sou desenvolvedor web,<br> com conhecimento de nível intermediário em programação.<br> Possuo experiência no desenvolvimento<br> de interfaces e aplicações utilizando HTML, CSS e JavaScript,<br> sempre priorizando organização,<br> desempenho e boas práticas de código.</p>
+        <nav id="nav-lateral"><!--navbar lateral-->
+            <ul><!--lista de links da navbar-->
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./contact.html">contato</a></li>
+            </ul>
+        </nav>
+        <div class="flex">
+            <li id="texto1">
+                <p class="texto">Meu nome é Arthur Wellington Santos e sou desenvolvedor web,<br> com conhecimento de
+                    nível
+                    intermediário em programação.<br> Possuo experiência no desenvolvimento<br> de interfaces e
+                    aplicações
+                    utilizando HTML, CSS e JavaScript,<br> sempre priorizando organização,<br> desempenho e boas
+                    práticas de
+                    código.</p>
+
+            </li>
             <br>
-            <p class="texto"><!--texto principal do site-->Atualmente sou menor de idade; por esse motivo,<br> minha avó é a responsável legal e proprietária oficial do site,<br> enquanto sou o único desenvolvedor responsável por todo o planejamento,<br> implementação e manutenção dos projetos apresentados.</p>
             <br>
-            <p class="texto">Estou em constante processo de aprendizado e evolução técnica,<br> buscando aprimorar minhas habilidades e adquirir<br> novos conhecimentos na área de desenvolvimento<br> web. Projetos, experiências e currículos profissionais serão disponibilizados<br> progressivamente neste portfólio.</p><!--texto de test-->
+            <li id="texto2">
+                <p class="texto"><!--texto principal do site-->Atualmente sou menor de idade; por esse motivo,<br> minha
+                    avó
+                    é a responsável legal e proprietária <br>oficial do site, enquanto sou o único desenvolvedor
+                    responsável
+                    por todo o planejamento,<br> implementação e manutenção dos projetos apresentados.</p>
+
+            </li>
+            <br>
+            <li id="texto3">
+                <p class="texto">Estou em constante processo de aprendizado e evolução <br>técnica, buscando aprimorar
+                    minhas habilidades <br>e adquirir novos conhecimentos na área de desenvolvimento<br> web. Projetos,
+                    experiências e<br> currículos profissionais serão disponibilizados progressivamente neste portfólio.
+                </p>
+                <!--texto de test-->
+            </li>
         </div>
-        
+
     </main>
     <footer><!--parte de baixo do site-->
         <p id="aut-name"></p><!--texto que o script vai colocar-->
-        <p class="desing">desenvolvido por arthur Wellington Santos</p>
-        <h5>Idade: 12 anos.</h5>
+        <p class="desing">desenvolvido por Arthur Wellington Santos,<br> em colaboração com Anisia Teixeira</p>
+        <h5 id="idade">Idade: 12 anos.</h5>
     </footer>
     <script src="./assets/scrip/pages/index/script.js"></script>
 </body>
+
 </html>
